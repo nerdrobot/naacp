@@ -1,0 +1,22 @@
+table {
+  width: 100%;
+}
+
+th.mat-sort-header-sorted {
+  color: black;
+}
+
+tr.mat-row:hover {
+  background-color: yellowgreen;
+}
+
+.right{
+  float: right;
+}
+
+.container {
+  border: 2px solid black;
+  background: #EDF8FD
+}
+
+

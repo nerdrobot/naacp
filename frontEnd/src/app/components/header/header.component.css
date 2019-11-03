@@ -1,0 +1,57 @@
+.logo {
+  height: 62px;
+  flex: 1 1 10%
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.emptySpace {
+  flex: 1 1 10%
+}
+
+.Leadership {
+  flex: 1 1 15%
+}
+
+.Home {
+  flex: 1 1 10%;
+}
+
+.About {
+  flex: 2 1 10%;
+}
+
+.Events {
+  flex: 3 1 10%;
+}
+
+.Membership {
+  flex: 4 1 15%;
+}
+
+.Privacy {
+  flex: 5 1 10%;
+}
+
+.Youth {
+  flex: 6 1 10%;
+}
+
+.Search {
+  flex: 7 1 10%;
+}
+
+.mat-toolbar.mat-primary {
+  background: #F3BA16;
+  color: rgba(0,0,0,.6);;
+}
+
+
+
+.example-fill-remaining-space {
+  /* This fills the remaining space, by using flexbox.
+     Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}
