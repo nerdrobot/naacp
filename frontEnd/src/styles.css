@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-size: 16pt; font-family: Helvetica, sans-serif; }
+.header1{
+  padding-top: 30px;
+  font-size: 26pt;
+  font-weight: bold;
+  color: #002F6C;
+}
+.header2{
+  font-size: 24pt;
+  font-family: Garamond;
+  font-weight: bold;
+
+}
+.header3{
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.content{
+  font-size: 16pt;
+}
+
+.mat-cell {
+  font-size: 16pt;
+}
+
+.headerLine {
+  border: 5px solid #F3BA16;
+  background-color: #F3BA16;
+}
+
+.mat-header-cell {
+  font-size: 16pt;
+}
+
+.mat-raised-button {
+  background-color: gray;
+  border: 1pt black;
+}
+
+.mat-button-wrapper {
+  font-size: 14pt;
+  font-family: Helvetica;
+  color: black;
+}
+

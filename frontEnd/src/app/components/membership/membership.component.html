@@ -1,0 +1,106 @@
+<div class="header1">MEMBERSHIPS</div>
+<hr class="headerLine">
+<br><br>
+<div class="header3">A letter from the Branch President:</div>
+<br>
+<div class="container content">
+  <br>
+  Friends,
+  <br>
+  <br>
+  Membership in the NAACP is not only a privilege but also a responsibility for those who value Freedom, Justice and
+  Equality. The members of our grand organization represent the backbone and lifeline which fuels our National
+  Organization to be able to stand in the halls of Congress and seat at the tables of Fortune 500 companies both here
+  and abroad. Freedom is not Free! It has come as a result of the blood, sweat and tears of our forefathers and
+  foremothers. It has come as a result of the sacrifices of the young and the old. Freedom and the strides we’ve made to
+  attain it, is being threatened everyday by those who believe that in order for one person to be free and experience a
+  better quality of life, someone else has to lose their freedoms and quality of life. This concept is far from the
+  truth. The sum gain of freedom is that all of us benefit is a positive and productive future. So join me in investing
+  in the Nation’s oldest, most feared, most revered, most respected, Civil Rights organizations, the NAACP as we
+  celebrate our 100th Anniversary! “Power concedes nothing without demand”.
+  <br>
+  <br>
+  Sincerely,
+  <br><b>
+  Betty Sawyer (President 2009-2010)
+  <br>
+  Betty Sawyer( President 2018-2019)
+</b>
+</div>
+<br><br>
+<div class="header3">Membership Information</div>
+<br>
+<div class="content">
+  Members of the Association shall affiliate and vote with only one unit at a time. Please join the NAACP Ogden Chapter by calling (801) 385-288-0940 or mailing your check payable to the NAACP Ogden Branch to Email: naacpogden1@gmail.com
+
+  <br>
+  <br>
+  NAACP P.O. BOX 1581
+  <br>
+  OGDEN, UTAH 84402
+  <br>
+  CONTACT: BETTY SAWYER
+  <br>
+  Email: naacpogden1@gmail.com
+  <br>
+  Phone: 385-288-0940
+</div>
+<br><br>
+<div class="content">
+  NAACP Membership Prices:
+  <br>
+</div>
+<br>
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+  <!-- Position Column -->
+  <ng-container matColumnDef="type">
+    <th mat-header-cell *matHeaderCellDef > Type</th>
+    <td mat-cell *matCellDef="let membership"> {{membership.type}} </td>
+  </ng-container>
+
+  <!-- Name Column -->
+  <ng-container matColumnDef="price">
+    <th mat-header-cell *matHeaderCellDef > Price</th>
+    <td mat-cell *matCellDef="let membership"> {{membership.price}} </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+<br>
+<a href="https://www.naacp.org/membership/" target="_blank">
+<button mat-raised-button class="right" >Join Us!</button>
+</a>
+
+<br><br>
+<div class="content">
+  Life Memberships(Subscribing):
+</div>
+<br> <br>
+
+<table mat-table [dataSource]="dataSource1" class="mat-elevation-z8">
+
+  <!-- Position Column -->
+  <ng-container matColumnDef="type">
+    <th mat-header-cell *matHeaderCellDef > Type</th>
+    <td mat-cell *matCellDef="let membership"> {{membership.type}} </td>
+  </ng-container>
+
+  <!-- Name Column -->
+  <ng-container matColumnDef="price">
+    <th mat-header-cell *matHeaderCellDef> Price</th>
+    <td mat-cell *matCellDef="let membership"> {{membership.price}} </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+<br>
+<a href="https://www.naacp.org/membership/" target="_blank">
+<button mat-raised-button class="right">Join Us!</button>
+</a>
+<br>
+<br>
+<br>
+<br>
